@@ -1,7 +1,8 @@
 void main() {
   print( "Hello My World");
-lambert(30,40);
-akanimo();
+  precious(6);
+// lambert(30,40);
+// akanimo();
 }
 
 
@@ -41,6 +42,23 @@ void akanimo(){
     print("We are at our lowest population");
   }else{
     print("We can accomodate more students");
+  }
+
+
+
+}
+
+void precious (var pre){
+  var high = 20;
+  var low = 2;
+
+  if (pre >= high){
+    print("We cant accommodate");
+  }
+  else if(pre <= low) {
+    print("We need Student ooo");
+  }else{
+    print("We are cool with more students");
   }
 
 }
