@@ -153,3 +153,11 @@ void main()
   print("Hello, $name! \nWelcome to AfricInnovate!!");
 }*/
 
+// Assignment
+/*pull from origin
+create a new branch
+Create a class
+Execute a function of your choice
+push to the repo
+Create a pull request*/
+
