@@ -100,19 +100,32 @@ void main() {
 
   String? name = "";
   String? matricNum = "";
+  String? Department ="";
   String? DOB = "";
 
 
   // Animal newAnim =  Animal(name, color, place, length, ages, year);
 
-  print("Enter Name:");
+  print("What is your Name:");
   name = stdin.readLineSync();
 
-  print("Enter matricNum:");
+  print("What is  your matricNum:");
   matricNum = stdin.readLineSync();
 
-  print("Enter DOB:");
+
+  print("Which Department are you:");
+  Department = stdin.readLineSync();
+
+  print("Enter your DOB:");
   DOB = stdin.readLineSync();
+
+  print("This are  Information  of $name ");
+
+  print("$matricNum, "
+      " $Department,"
+      "  $DOB");
+
+
 
   // print("Enter Height");
   // length = stdin.readLineSync();
@@ -123,9 +136,6 @@ void main() {
   // print("Enter Lifespan");
   // year = stdin.readLineSync();
 
-  print("The Following are the Information  of $name ");
-
-  print("$matricNum , $DOB");
 
     //
     // Home home = Home("Theresa", "Okon Eket", "11", "erfghj652-5hgdc");
