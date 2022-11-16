@@ -87,57 +87,57 @@ void precious (var pre){
 */
 
 // Declaration of Class
+// t 'dart:io';
+//
+// import 'package:for_learning/oo
+
+
+
+
 import 'dart:io';
-
-import 'package:for_learning/oopclass.dart';
-
-
 
 void main() {
 
   String? name = "";
-  String? color = "";
-  String? place = "";
-  String? length = "";
-  String? ages = "";
-  String? year = "";
+  String? matricNum = "";
+  String? DOB = "";
 
 
   // Animal newAnim =  Animal(name, color, place, length, ages, year);
 
-  print("Enter Name");
+  print("Enter Name:");
   name = stdin.readLineSync();
 
-  print("Enter Color");
-  color = stdin.readLineSync();
+  print("Enter matricNum:");
+  matricNum = stdin.readLineSync();
 
-  print("Enter Habitat");
-  place = stdin.readLineSync();
+  print("Enter DOB:");
+  DOB = stdin.readLineSync();
 
-  print("Enter Height");
-  length = stdin.readLineSync();
+  // print("Enter Height");
+  // length = stdin.readLineSync();
+  //
+  // print("Enter Age");
+  // ages = stdin.readLineSync();
+  //
+  // print("Enter Lifespan");
+  // year = stdin.readLineSync();
 
-  print("Enter Age");
-  ages = stdin.readLineSync();
+  print("The Following are the Information  of $name ");
 
-  print("Enter Lifespan");
-  year = stdin.readLineSync();
+  print("$matricNum , $DOB");
 
-  print("The Following are the featuress of $name ");
-
-  print("$color , $place , $length , $ages , $year");
-
-
-    Home home = Home("Theresa", "Okon Eket", "11", "erfghj652-5hgdc");
-    print(home.owner);
-    print(home.owner);
-    print(home.owner);
-    print(home.owner);
-
-    Home home2 = Home("Lambert", "Mkpok", "55", "dfghjkv2158-fghjkl615");
-    print("${home2.owner} ${home2.address} ${home2.occupantSize} ${home2.homeId} ");
-
-    // This works fine
+    //
+    // Home home = Home("Theresa", "Okon Eket", "11", "erfghj652-5hgdc");
+    // print(home.owner);
+    // print(home.owner);
+    // print(home.owner);
+    // print(home.owner);
+    //
+    // Home home2 = Home("Lambert", "Mkpok", "55", "dfghjkv2158-fghjkl615");
+    // print("${home2.owner} ${home2.address} ${home2.occupantSize} ${home2.homeId} ");
+    //
+    // // This works fine
 
 }
 
