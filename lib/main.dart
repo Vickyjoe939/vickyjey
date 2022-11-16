@@ -91,17 +91,10 @@ import 'dart:io';
 
 import 'package:for_learning/oopclass.dart';
 
-class Car {
-  late String akanimo;
 
-  // Declaration of Objects of the Class
-  Car(String engine) {
-    print(engine);
-  }
-
-}
 
 void main() {
+
   String? name = "";
   String? color = "";
   String? place = "";
@@ -110,7 +103,7 @@ void main() {
   String? year = "";
 
 
-  Animal newAnim =  Animal(name, color, place, length, ages, year);
+  // Animal newAnim =  Animal(name, color, place, length, ages, year);
 
   print("Enter Name");
   name = stdin.readLineSync();
@@ -133,6 +126,17 @@ void main() {
   print("The Following are the featuress of $name ");
 
   print("$color , $place , $length , $ages , $year");
+
+
+    Home home = Home("Theresa", "Okon Eket", "11", "erfghj652-5hgdc");
+    print(home.owner);
+    print(home.owner);
+    print(home.owner);
+    print(home.owner);
+
+    Home home2 = Home("Lambert", "Mkpok", "55", "dfghjkv2158-fghjkl615");
+    print("${home2.owner} ${home2.address} ${home2.occupantSize} ${home2.homeId} ");
+
 
 
 
