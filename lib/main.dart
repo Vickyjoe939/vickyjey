@@ -102,6 +102,7 @@ void main() {
   String? matricNum = "";
   String? Department ="";
   String? DOB = "";
+  String? Church ="";
 
 
   // Animal newAnim =  Animal(name, color, place, length, ages, year);
@@ -113,17 +114,25 @@ void main() {
   matricNum = stdin.readLineSync();
 
 
+
+
   print("Which Department are you:");
   Department = stdin.readLineSync();
 
   print("Enter your DOB:");
   DOB = stdin.readLineSync();
 
-  print("This are  Information  of $name ");
+  print("Enter the name of a church:");
+  Church =stdin.readLineSync();
+
+
+
+  print("This are  Information  of $name and they are valid");
 
   print("$matricNum, "
       " $Department,"
-      "  $DOB");
+      "  $DOB,"
+      "$Church");
 
 
 
