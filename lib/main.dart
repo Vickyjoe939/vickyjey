@@ -91,8 +91,11 @@ import 'dart:io';
 
 import 'package:for_learning/oopclass.dart';
 
+import 'encapsulation.dart';
 
 
+
+/*
 void main() {
 
   String? name = "";
@@ -140,6 +143,7 @@ void main() {
     // This works fine
 
 }
+*/
 
 
 
@@ -163,4 +167,22 @@ Create a class
 Execute a function of your choice
 push to the repo
 Create a pull request*/
+
+void main(){
+  late String mName ;
+  late String mComplexion;
+  late double mHeight;
+  late String mProfession;
+  late bool mDisabilities;
+
+  Person person = Person("Lambert", "Fair",6.1, "Mobile Developer", false);
+
+   mComplexion = person.complexion ;
+   mName = person.name;
+   mProfession = person.profession;
+   mDisabilities = person.disabilities;
+   mHeight = person.height;
+
+  print("$mName, $mComplexion $mProfession $mDisabilities $mHeight ");
+}
 
