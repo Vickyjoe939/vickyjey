@@ -87,60 +87,79 @@ void precious (var pre){
 */
 
 // Declaration of Class
-import 'dart:io';
+// t 'dart:io';
+//
+// import 'package:for_learning/oo
 
-import 'package:for_learning/oopclass.dart';
+
 
 import 'encapsulation.dart';
 
+import 'dart:io';
 
 
 /*
 void main() {
 
   String? name = "";
-  String? color = "";
-  String? place = "";
-  String? length = "";
-  String? ages = "";
-  String? year = "";
+  String? matricNum = "";
+  String? Department ="";
+  String? DOB = "";
+  String? Church ="";
 
 
   // Animal newAnim =  Animal(name, color, place, length, ages, year);
 
-  print("Enter Name");
+  print("What is your Name:");
   name = stdin.readLineSync();
 
-  print("Enter Color");
-  color = stdin.readLineSync();
-
-  print("Enter Habitat");
-  place = stdin.readLineSync();
-
-  print("Enter Height");
-  length = stdin.readLineSync();
-
-  print("Enter Age");
-  ages = stdin.readLineSync();
-
-  print("Enter Lifespan");
-  year = stdin.readLineSync();
-
-  print("The Following are the featuress of $name ");
-
-  print("$color , $place , $length , $ages , $year");
+  print("What is  your matricNum:");
+  matricNum = stdin.readLineSync();
 
 
-    Home home = Home("Theresa", "Okon Eket", "11", "erfghj652-5hgdc");
-    print(home.owner);
-    print(home.owner);
-    print(home.owner);
-    print(home.owner);
 
-    Home home2 = Home("Lambert", "Mkpok", "55", "dfghjkv2158-fghjkl615");
-    print("${home2.owner} ${home2.address} ${home2.occupantSize} ${home2.homeId} ");
 
-    // This works fine
+  print("Which Department are you:");
+  Department = stdin.readLineSync();
+
+  print("Enter your DOB:");
+  DOB = stdin.readLineSync();
+
+  print("Enter the name of a church:");
+  Church =stdin.readLineSync();
+
+
+
+  print("This are  Information  of $name and they are valid");
+
+  print("$matricNum, "
+      " $Department,"
+      "  $DOB,"
+      "$Church");
+
+
+
+  // print("Enter Height");
+  // length = stdin.readLineSync();
+  //
+  // print("Enter Age");
+  // ages = stdin.readLineSync();
+  //
+  // print("Enter Lifespan");
+  // year = stdin.readLineSync();
+
+
+    //
+    // Home home = Home("Theresa", "Okon Eket", "11", "erfghj652-5hgdc");
+    // print(home.owner);
+    // print(home.owner);
+    // print(home.owner);
+    // print(home.owner);
+    //
+    // Home home2 = Home("Lambert", "Mkpok", "55", "dfghjkv2158-fghjkl615");
+    // print("${home2.owner} ${home2.address} ${home2.occupantSize} ${home2.homeId} ");
+    //
+    // // This works fine
 
 }
 */
